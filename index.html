@@ -53,7 +53,7 @@ footer{margin-top:30px;text-align:center;color:var(--muted);font-size:11px;lette
       <h1>CS SOUND</h1>
       <div class="tag sp">Ses paneli • Windows</div>
       <p>MP3 yükle, ses dalgasından istediğin bölümü kes, bir tuşa ata. Oyunda ya da Discord'da tek tuşla mikrofonundan çal. Bas-konuş tuşunu otomatik basılı tutar.</p>
-      <a class="dl" href="CSSound.exe" download="CSSound.exe">
+      <a class="dl" id="dlBtn" href="CSSound.exe" download="CSSound.exe">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12m0 0l-5-5m5 5l5-5M4 20h16"/></svg>
         İNDİR
       </a>
@@ -81,5 +81,12 @@ footer{margin-top:30px;text-align:center;color:var(--muted);font-size:11px;lette
 
   <footer>CS SOUND</footer>
 </div>
+<script>
+/* İNDİRME LİNKİ: exe'yi GitHub Releases'e yüklersen buraya şu şekilde yaz:
+   https://github.com/KULLANICI_ADIN/REPO_ADI/releases/latest/download/CSSound.exe
+   Boş bırakırsan aynı klasördeki CSSound.exe indirilir. */
+const DOWNLOAD_URL = "https://drive.google.com/file/d/1RklnF-X-Q3z-cn1REA41JeAGeZSEkQ0q/view";
+if (DOWNLOAD_URL) document.getElementById('dlBtn').href = DOWNLOAD_URL;
+</script>
 </body>
 </html>
