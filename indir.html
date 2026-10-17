@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CS Sound • İndir</title>
+<link rel="icon" href="Logo.png">
+<style>
+:root{--card:rgba(18,21,28,.80);--card2:rgba(40,45,56,.9);--edge:rgba(120,130,150,.28);--acc:#ecaa2a;--green:#48a856;--text:#f0f2f6;--muted:#969eac}
+*{box-sizing:border-box}
+html,body{margin:0;min-height:100%}
+body{font-family:"Segoe UI",system-ui,sans-serif;color:var(--text);background:#0a0c10 url(back.png) center/cover fixed no-repeat}
+body::before{content:"";position:fixed;inset:0;background:rgba(5,7,11,.70);z-index:-1}
+.sp{letter-spacing:.2em;text-transform:uppercase}
+.wrap{max-width:980px;margin:0 auto;padding:34px 22px 50px}
+.top{display:flex;align-items:center;gap:14px}
+.top img{width:46px;height:46px;object-fit:contain}
+.top b{font-size:15px;letter-spacing:.2em}
+.top span{display:block;font-size:9.5px;color:var(--acc);font-weight:700;letter-spacing:.22em}
+
+.hero{margin-top:44px;padding:44px 40px;background:var(--card);border:1px solid var(--edge);border-left:4px solid var(--acc);border-radius:12px;backdrop-filter:blur(6px);display:flex;align-items:center;gap:40px;flex-wrap:wrap}
+.hero .logo{width:170px;height:170px;object-fit:contain;flex:none;animation:fl 3.2s ease-in-out infinite}
+@keyframes fl{50%{transform:translateY(-8px)}}
+.hero .txt{flex:1;min-width:280px}
+h1{margin:0;font-size:46px;letter-spacing:.24em;line-height:1.1}
+.tag{color:var(--acc);font-size:12px;font-weight:700;margin:10px 0 16px}
+.hero p{color:#c3c9d4;line-height:1.65;margin:0 0 26px;font-size:15px;max-width:520px}
+.dl{display:inline-flex;align-items:center;gap:14px;padding:18px 34px;border-radius:9px;background:var(--green);color:#fff;text-decoration:none;font-weight:800;font-size:16px;letter-spacing:.2em;border:1px solid rgba(255,255,255,.2);box-shadow:0 8px 28px rgba(72,168,86,.28);transition:filter .12s,transform .08s}
+.dl:hover{filter:brightness(1.18)}.dl:active{transform:translateY(2px)}
+.dl svg{width:22px;height:22px}
+.meta{margin-top:14px;color:var(--muted);font-size:12px;letter-spacing:.08em}
+
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:18px}
+.card{padding:22px;background:var(--card);border:1px solid var(--edge);border-left:4px solid var(--acc);border-radius:10px}
+.card h3{margin:0 0 8px;font-size:13px;letter-spacing:.2em;color:#fff}
+.card p{margin:0;color:var(--muted);font-size:13.5px;line-height:1.6}
+.steps{margin-top:18px;padding:26px 28px;background:var(--card);border:1px solid var(--edge);border-left:4px solid var(--acc);border-radius:10px}
+.steps h2{margin:0 0 14px;font-size:14px;letter-spacing:.22em}
+.steps ol{margin:0;padding-left:22px;color:#c3c9d4;line-height:1.9;font-size:14.5px}
+.steps b{color:#fff}
+.warn{margin-top:14px;font-size:12.5px;color:var(--muted);line-height:1.6}
+footer{margin-top:30px;text-align:center;color:var(--muted);font-size:11px;letter-spacing:.2em}
+@media(max-width:800px){.grid{grid-template-columns:1fr}h1{font-size:34px}.hero{padding:28px 22px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="top"><img src="Logo.png" alt=""><div><b>CS SOUND</b><span>SES PANELİ</span></div></div>
+
+  <section class="hero">
+    <img class="logo" src="Logo.png" alt="CS Sound">
+    <div class="txt">
+      <h1>CS SOUND</h1>
+      <div class="tag sp">Ses paneli • Windows</div>
+      <p>MP3 yükle, ses dalgasından istediğin bölümü kes, bir tuşa ata. Oyunda ya da Discord'da tek tuşla mikrofonundan çal. Bas-konuş tuşunu otomatik basılı tutar.</p>
+      <a class="dl" href="CSSound.exe" download="CSSound.exe">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12m0 0l-5-5m5 5l5-5M4 20h16"/></svg>
+        İNDİR
+      </a>
+      <div class="meta">CSSound.exe &nbsp;•&nbsp; Windows 10 / 11 &nbsp;•&nbsp; Kurulum gerektirmez</div>
+    </div>
+  </section>
+
+  <div class="grid">
+    <div class="card"><h3 class="sp">Ses kes</h3><p>Dalga üzerinde başlangıç ve bitişi sürükle, en fazla 1 dakikalık parçayı kaydet.</p></div>
+    <div class="card"><h3 class="sp">Tuş ata</h3><p>Her sese kendi tuşunu ver (örn. Alt + 4). Aynı tuş iki sese verilemez.</p></div>
+    <div class="card"><h3 class="sp">Bas-konuş</h3><p>Ses çalarken seçtiğin bas-konuş tuşu otomatik basılı tutulur, bitince bırakılır.</p></div>
+  </div>
+
+  <section class="steps">
+    <h2 class="sp">Nasıl kurulur</h2>
+    <ol>
+      <li><b>CSSound.exe</b> dosyasını indir ve çift tıkla.</li>
+      <li>İlk açılışta kurulum ekranı çıkar, masaüstüne <b>CS Sound</b> kısayolu oluşur.</li>
+      <li><b>VB-Audio Virtual Cable</b> kur, bilgisayarı yeniden başlat.</li>
+      <li>Ayarlar'da çıkış olarak <b>CABLE Input</b> seç.</li>
+      <li>Oyunda ya da Discord'da mikrofon olarak <b>CABLE Output</b> seç.</li>
+    </ol>
+    <div class="warn">Windows "Bilinmeyen yayıncı" uyarısı gösterirse <b>Ek bilgi › Yine de çalıştır</b>'a bas. Program imzasız olduğu için bu uyarı çıkabilir.</div>
+  </section>
+
+  <footer>CS SOUND</footer>
+</div>
+</body>
+</html>
